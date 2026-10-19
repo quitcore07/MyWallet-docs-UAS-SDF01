@@ -1,4 +1,4 @@
-# Activity Log - My Wallet
+# Activity Log - My Wallet (D5)
 
 Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-masing. Setiap entri wajib punya bukti (commit hash atau PR).
 
