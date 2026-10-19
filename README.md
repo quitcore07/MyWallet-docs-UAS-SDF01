@@ -13,3 +13,11 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 | Ubay Abdillah | 26110300020 | @quitcore07 |
 | Muhammad Irsyad Syafei | 26110300007 | @KyroCode-001 |
 | Muhammad Rafie Fahmy | 26110300030 | @rafiefahmi2905-dev |
+
+## Penggunaan AI
+
+| Anggota | AI yang dipakai | Dipakai untuk |
+|---|---|---|
+| Ubay Abdillah | Claude | D1: draft awal nama aplikasi dan deskripsi, lalu direvisi |
+
+Semua hasil AI sudah kami baca, ubah, dan kami pahami sebelum dikumpulkan.
