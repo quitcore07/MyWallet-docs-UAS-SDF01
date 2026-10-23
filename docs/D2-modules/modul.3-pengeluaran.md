@@ -1,4 +1,4 @@
-3. Modul Pengeluaran
+## 3. Modul Pengeluaran
 
 Tanggung jawab: Mencatat uang yang keluar, mengelompokkannya per kategori, dan mengurangi saldo sumber uang yang dipakai.
 
