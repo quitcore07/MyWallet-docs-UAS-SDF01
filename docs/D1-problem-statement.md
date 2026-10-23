@@ -26,12 +26,3 @@ Permasalahan utama yang sering dihadapi mahasiswa dalam mengelola keuangan secar
 3. **Absennya Evaluasi Diri:** Tidak adanya data historis transaksi membuat mahasiswa tidak memiliki dasar untuk membenahi kebiasaan konsumtif.
 
 ---
-
-## 💡 Solusi: My Wallet
-
-**My Wallet** hadir sebagai solusi praktis dengan menyediakan platform pencatatan keuangan yang:
-
-* 🗂️ **Terstruktur:** Memisahkan pencatatan saldo *cash*, rekening bank, dan *e-wallet* secara independen.
-* 📊 **Terorganisir:** Mengelompokkan transaksi harian berdasarkan kategori (makan, transportasi, kuota, dll.) serta menyediakan alokasi khusus untuk tabungan.
-* 🎯 **Anggaran Terkontrol:** Membantu menetapkan *budget* bulanan agar pengeluaran tetap terjaga.
-* ⚡ **Otomatis & Real-Time:** Menghitung total pemasukan, pengeluaran, dan sisa saldo secara otomatis berdasarkan data input pengguna.
