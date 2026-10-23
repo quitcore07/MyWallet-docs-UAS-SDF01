@@ -1,0 +1,61 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+' Aktor
+actor "Mahasiswa (Pengguna)" as User
+actor "Sistem Notifikasi" as NotifSys
+
+' Batasan Sistem
+rectangle "Aplikasi MyWallet" {
+
+    ' Modul Sumber Uang
+    package "Modul Sumber Uang" {
+        usecase "Pilih Sumber Uang\n(Cash / E-Money)" as UC1
+        usecase "Kelola & Lihat Saldo\nSumber Uang" as UC2
+    }
+
+    ' Modul Pemasukan
+    package "Modul Pemasukan" {
+        usecase "Catat Pemasukan\n(Orang tua, Gaji, dll)" as UC3
+    }
+
+    ' Modul Pengeluaran
+    package "Modul Pengeluaran" {
+        usecase "Catat Pengeluaran\n(Bulanan, Harian, dll)" as UC4
+    }
+
+    ' Modul Tabungan
+    package "Modul Tabungan" {
+        usecase "Buat & Kelola\nTabungan Impian" as UC5
+        usecase "Tabungan Masuk\n(Alokasi Pemasukan)" as UC6
+        usecase "Tabungan Keluar\n(Dialokasikan ke Pengeluaran)" as UC7
+    }
+
+    ' Modul Laporan & Notifikasi
+    package "Modul Laporan & Notifikasi" {
+        usecase "Lihat Laporan Sisa Uang\n(Kapan Saja)" as UC8
+        usecase "Kirim Notifikasi\nLaporan Bulanan" as UC9
+    }
+
+    ' Relasi Antar Use Case (Include & Extend)
+    UC3 ..> UC1 : <<include>>
+    UC4 ..> UC1 : <<include>>
+    UC7 ..> UC4 : <<include>>
+    UC8 ..> UC2 : <<include>>
+    UC9 ..> UC8 : <<extend>>
+}
+
+' Relasi Aktor ke Use Case
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+User --> UC7
+User --> UC8
+
+NotifSys --> UC9
+
+@enduml
