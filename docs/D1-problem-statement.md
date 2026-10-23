@@ -1,28 +1,41 @@
+
 # 👛 My Wallet
 
-> **My Wallet** adalah aplikasi web pencatat keuangan mandiri yang dirancang khusus untuk mahasiswa. Platform ini membantu mahasiswa mengelola arus kas harian—mulai dari memisahkan dompet digital dan uang tunai, mengelompokkan kategori pengeluaran, hingga memantau anggaran bulanan secara *real-time*.
+**My Wallet** adalah aplikasi pencatat keuangan untuk mahasiswa. Pengguna mencatat sendiri uang masuk, uang keluar, dan tabungan dari berbagai sumber uang (cash dan e-money), lalu melihat sisa uangnya dalam bentuk laporan.
 
 ---
 
-## ⚠️ Masalah (Problem Statement)
+## ⚠️ Masalah
 
-Permasalahan utama yang sering dihadapi mahasiswa dalam mengelola keuangan secara mandiri meliputi:
+1. **Uang tersebar di banyak tempat.** Uang mahasiswa terbagi antara cash dan e-money (rekening bank, Dana, GoPay, ShopeePay), sehingga sulit tahu sisa uang di masing-masing tempat.
+2. **Pemasukan datang dari berbagai sumber.** Misalnya pemberian orang tua, gaji, pengembalian hutang dari teman, atau pemasukan tak terduga seperti dikasih teman.
+3. **Pencatatan tidak teratur.** Pengeluaran tidak dikelompokkan, dan uang tabungan bercampur dengan uang untuk kebutuhan sehari-hari.
 
-### 1. Saldo Terpecah & Sumber Pemasukan Beragam
-* **Multi-Alokasi Saldo:** Uang mahasiswa terbagi di berbagai tempat, seperti uang tunai (*cash*) di dompet, rekening bank, serta beragam *e-wallet* (DANA, GoPay, ShopeePay, OVO).
-* **Multi-Sumber Pemasukan:** Dana berasal dari berbagai pintu, seperti alokasi orang tua, gaji kerja paruh waktu/freelance, hingga pengembalian piutang teman.
+## 💡 Solusi
 
-### 2. Metode Pencatatan Konvensional & Berantakan
-* **Pencatatan Seadanya:** Kebanyakan mahasiswa hanya mengandalkan *Notes* di HP, ingatan pribadi (*mental accounting*), atau bahkan tidak mencatat sama sekali.
-* **Tanpa Pemisahan & Kalkulasi Otomatis:** Catatan manual di HP tidak memisahkan antara saldo *cash* dan *e-money*, tidak dikelompokkan per kategori, serta tidak dihitung secara otomatis.
-* **Dana Tabungan Tercampur:** Uang tabungan menyatu dengan dana operasional/jajan harian, sehingga rentan terpakai tanpa disadari.
+My Wallet menyediakan satu tempat untuk mencatat semuanya secara terpisah dan jelas.
 
----
+### 1. Sumber Uang
+Pengguna pertama-tama memilih sumber uang yang dipakai:
+- **Cash**
+- **E-money**: bank, Dana, GoPay, ShopeePay
 
-### 📉 Dampak yang Ditimbulkan
+### 2. Fitur Utama
 
-1. **Blind Spot Keuangan:** Kesulitan mengetahui sisa saldo *real-time* di tiap dompet/rekening serta total akumulasi pengeluaran.
-2. **Krisis Akhir Bulan:** Uang saku sering habis mendadak sebelum waktunya tanpa rekam jejak yang jelas (*dompet bocor halus*).
-3. **Absennya Evaluasi Diri:** Tidak adanya data historis transaksi membuat mahasiswa tidak memiliki dasar untuk membenahi kebiasaan konsumtif.
+| Fitur | Isi |
+|---|---|
+| **Pemasukan** | Pemberian orang tua, gaji, pengembalian hutang, **lainnya** (misalnya dikasih teman atau menemukan uang) |
+| **Pengeluaran** | Kebutuhan bulanan, kebutuhan harian, jajan, memberi hutang, **lainnya** (di luar kategori yang tersedia) |
+| **Tabungan** | Tabungan masuk dan tabungan keluar |
 
----
+**Alur tabungan:**
+- **Tabungan masuk** berasal dari pemasukan.
+- **Tabungan keluar** dialokasikan ke pengeluaran, lalu pengguna sendiri yang menentukan masuk ke kategori pengeluaran yang mana.
+
+### 3. Laporan Sisa Uang
+- Laporan menampilkan rincian **cash** dan **e-money**, lalu **total** keduanya.
+- Dikirim otomatis lewat **notifikasi setiap tanggal 1 pukul 00:00**.
+- Bisa dilihat kapan saja oleh pengguna.
+
+### 4. Pencatatan Manual
+Seluruh data diinput sendiri oleh pengguna. Aplikasi tidak terhubung otomatis ke bank atau e-wallet.
