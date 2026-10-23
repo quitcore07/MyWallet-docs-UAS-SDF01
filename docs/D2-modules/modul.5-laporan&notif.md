@@ -1,4 +1,4 @@
-## 5.Modul Laporan & Notifikasi
+## 5. Modul Laporan & Notifikasi
 
 Tanggung jawab: Merangkum sisa uang dari semua modul menjadi laporan, lalu menampilkannya saat diminta pengguna atau mengirimkannya otomatis lewat notifikasi.
 
