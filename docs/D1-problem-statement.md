@@ -16,11 +16,3 @@ Akibatnya, mahasiswa sulit mengetahui sisa uang di tiap tempat dan ke mana uangn
 |---|---|
 | **Mahasiswa (Pengguna)** | Memilih sumber uang, mencatat pemasukan, pengeluaran, dan tabungan, serta melihat laporan sisa uang kapan saja (misalnya meminta laporan di tanggal 2 tanpa menunggu tanggal 1 bulan berikutnya). |
 | **Sistem Notifikasi** | Mengirim laporan sisa uang secara otomatis setiap tanggal 1 pukul 00:00. |
-
-## 🎯 Ruang Lingkup
-
-### Yang akan dilakukan aplikasi
-
-**1. Sumber uang.** Pengguna memilih sumber uang yang dipakai:
-- **Cash**
-- **E-money**: bank, Dana, GoPay, ShopeePay
