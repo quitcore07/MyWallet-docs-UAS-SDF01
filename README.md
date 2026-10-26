@@ -18,6 +18,8 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 
 | Anggota | AI yang dipakai | Dipakai untuk |
 |---|---|---|
-| Ubay Abdillah | Claude | D1: draft awal nama aplikasi dan deskripsi, lalu direvisi |
+| Ubay Abdillah | Claude | D1: draft awal nama aplikasi dan deskripsi |
+| Rafie Fahmi | Gemini | D1: menyusun latar belakang masalah dan membuat user |
 
-Semua hasil AI sudah kami baca, ubah, dan kami pahami sebelum dikumpulkan.
+
+
