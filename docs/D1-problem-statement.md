@@ -30,12 +30,12 @@ Akibatnya, mahasiswa sulit mengetahui sisa uang di tiap tempat dan ke mana uangn
 | Fitur | Isi |
 |---|---|
 | **Pemasukan** | Pemberian orang tua, gaji, pengembalian hutang, **lainnya** (misalnya dikasih teman atau menemukan uang) |
-| **Pengeluaran** | Kebutuhan bulanan, kebutuhan harian, jajan, memberi hutang, **lainnya** (di luar kategori yang tersedia) |
+| **Pengeluaran** | Kebutuhan bulanan, kebutuhan harian, jajan, memberi hutang, **lainnya** (di luar kategori yang tersedia). Pengeluaran ditolak jika melebihi uang tersedia. |
 | **Tabungan** | Tabungan masuk dan tabungan keluar, dibagi ke beberapa tabungan impian |
 
 **Alur tabungan:**
 - **Tabungan masuk** berasal dari pemasukan.
-- **Tabungan keluar** dialokasikan ke pengeluaran, lalu pengguna sendiri yang menentukan masuk ke kategori pengeluaran yang mana.
+- **Tabungan keluar** diambil dari tabungan impian tertentu dan disimpan sebagai **saldo menggantung**, lalu pengguna sendiri yang menentukan masuk ke kategori pengeluaran yang mana. Tabungan keluar tidak boleh melebihi saldo tabungan impian tersebut.
 
 **Tabungan impian:**
 Pengguna bisa punya **beberapa tabungan sekaligus**, masing-masing untuk satu impian, misalnya tabungan motor atau tabungan HP.
@@ -47,7 +47,7 @@ Pengguna bisa punya **beberapa tabungan sekaligus**, masing-masing untuk satu im
 - Tabungan keluar juga dicatat per tabungan, sehingga jumlah terkumpul selalu menunjukkan sisa yang ada.
 
 **3. Laporan sisa uang**
-- Menampilkan rincian **cash** dan **e-money**, lalu **total** keduanya.
+- Menampilkan rincian **cash** dan **e-money**, termasuk saldo menggantung dan saldo tabungan impian, lalu **total** keseluruhan.
 - Dikirim otomatis lewat **notifikasi setiap tanggal 1 pukul 00:00**.
 - Bisa dilihat kapan saja oleh pengguna.
 
