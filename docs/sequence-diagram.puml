@@ -1,0 +1,30 @@
+@startuml
+title Skenario 2: Tabungan Masuk ke Tabungan Impian
+
+actor "Mahasiswa (Pengguna)" as U
+boundary "UI Pencatatan" as UI
+control "Modul Tabungan" as TAB
+entity "Modul Pemasukan" as IN
+
+U -> UI : pilih sumber (Cash / E-Money), pilih/isi tabungan impian (misal "Motor"), nominal
+UI -> TAB : catatTabunganMasuk(sumberUang, namaTabungan, nominal)
+TAB -> IN : cekPemasukanTersedia(sumberUang)
+IN --> TAB : pemasukanTersedia
+
+alt nominal valid dan pemasukan cukup
+  TAB -> IN : kurangiPemasukan(nominal)
+  IN --> TAB : pemasukanBaru
+  TAB -> TAB : tambahJumlahTerkumpul(namaTabungan, nominal)
+  opt target harga diisi (misal Rp20.000.000)
+    TAB -> TAB : hitungPersentaseProgres(terkumpul / target)
+  end
+  TAB --> UI : sukses + jumlah terkumpul (+ persentase jika ada target)
+  UI --> U : tampilkan konfirmasi dan progres tabungan
+else nominal kosong, nol, negatif, atau bukan angka
+  TAB --> UI : error sesuai D6 TC-10
+  UI --> U : tampilkan pesan kesalahan
+else pemasukan tidak cukup
+  TAB --> UI : error "Pemasukan tidak cukup"
+  UI --> U : tampilkan pesan gagal
+end
+@enduml
