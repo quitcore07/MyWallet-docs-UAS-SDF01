@@ -1,0 +1,27 @@
+@startuml
+title Skenario 2: Tabungan Masuk\n(Alokasi Sebagian Pemasukan ke Tabungan Impian)
+actor "Mahasiswa (Pengguna)" as User
+boundary "UI Tabungan\nImpian" as UI
+control "Modul Tabungan" as MT
+entity "Modul Sumber Uang" as MSU
+== Memasukkan alokasi ==
+User -> UI : pilih tabungan impian\n(misal "Motor") + nominal
+UI -> MT : alokasiTabunganMasuk(tabunganId, nominal)
+MT -> MSU : cekSaldoTersedia(sumberUang)
+MSU --> MT : saldoTersedia
+alt Nominal valid dan saldo cukup
+    MT -> MSU : catatAlokasi(sumberUang, nominal)
+    MSU --> MT : alokasiTercatat
+    MT -> MT : updateJumlahTerkumpul(nominal)
+    opt Tabungan memiliki target harga
+        MT -> MT : hitungPersentaseProgres()\nterkumpul / target harga
+    end
+    MT --> UI : sukses + jumlahTerkumpulBaru\n(+ persentase jika ada target)
+    UI --> User : tampil konfirmasi dan progres tabungan
+else Nominal melebihi saldo tersedia
+    MT --> UI : error "Nominal melebihi saldo"
+    UI --> User : tampil pesan gagal
+else Nominal kosong atau bukan angka
+    MT --> UI : error "Nominal tidak valid"
+    UI --> User : tampil pesan kesalahan
+end
