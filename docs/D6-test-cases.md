@@ -26,7 +26,7 @@ Minimal 10 test case: 5 kasus umum (Common) dan 5 kasus batas (Edge).
 | TC-08 | Pengeluaran sama persis dengan uang tersedia | Edge | Uang tersedia cash 30.000 | Pilih Cash → pengeluaran "Jajan" 30.000 → simpan | Diterima; uang tersedia 0 |
 | TC-09 | Alokasi melebihi saldo menggantung | Edge | Saldo menggantung cash 10.000 | Pilih Cash → alokasi "Kebutuhan bulanan" 15.000 → simpan | Ditolak "Saldo menggantung tidak cukup"; saldo menggantung tetap 10.000 |
 | TC-10 | Tabungan keluar melebihi saldo tabungan | Edge | Saldo tabungan cash 15.000 | Pilih Cash → tabungan keluar 20.000 → simpan | Ditolak "Saldo tabungan tidak cukup"; saldo tabungan tetap 15.000 |
-| TC-11 | Nominal kosong, nol, negatif, atau bukan angka | Edge | Login | (a) kosong; (b) 0; (c) -10.000; (d) "dua puluh ribu" → simpan | (a) "Nominal wajib diisi"; (b) dan (c) "Nominal harus lebih dari 0"; (d) "Nominal harus berupa angka" |
+
 
 ## Cara Memilih Edge Case
 
