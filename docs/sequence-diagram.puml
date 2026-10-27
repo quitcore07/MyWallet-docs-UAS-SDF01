@@ -1,30 +1,40 @@
 @startuml
-title Skenario 2: Tabungan Masuk ke Tabungan Impian
+title Skenario 3: Tabungan (Masuk dan Keluar)
 
 actor "Mahasiswa (Pengguna)" as U
 boundary "UI Pencatatan" as UI
 control "Modul Tabungan" as TAB
 entity "Modul Pemasukan" as IN
+entity "Modul Pengeluaran" as OUT
 
-U -> UI : pilih sumber (Cash / E-Money), pilih/isi tabungan impian (misal "Motor"), nominal
-UI -> TAB : catatTabunganMasuk(sumberUang, namaTabungan, nominal)
-TAB -> IN : cekPemasukanTersedia(sumberUang)
-IN --> TAB : pemasukanTersedia
+U -> UI : pilih jenis (masuk / keluar), pilih tujuan (tabungan biasa / tabungan impian), isi nominal
+UI -> TAB : prosesTabungan(jenis, tujuan, nominal)
 
-alt nominal valid dan pemasukan cukup
-  TAB -> IN : kurangiPemasukan(nominal)
-  IN --> TAB : pemasukanBaru
-  TAB -> TAB : tambahJumlahTerkumpul(namaTabungan, nominal)
-  opt target harga diisi (misal Rp20.000.000)
-    TAB -> TAB : hitungPersentaseProgres(terkumpul / target)
+alt jenis = tabungan masuk
+  TAB -> IN : cekPemasukanTersedia()
+  IN --> TAB : pemasukanTersedia
+  alt nominal valid dan pemasukan cukup
+    TAB -> IN : kurangiPemasukan(nominal)
+    TAB -> TAB : tambahSaldoTabungan(tujuan, nominal)
+    opt tujuan adalah tabungan impian dengan target
+      TAB -> TAB : hitungPersentaseProgres(terkumpul / target)
+    end
+    TAB --> UI : sukses
+    UI --> U : tampilkan konfirmasi
+  else nominal tidak valid atau pemasukan tidak cukup
+    TAB --> UI : error sesuai pesan D6 TC-10 atau "Pemasukan tidak cukup"
+    UI --> U : tampilkan pesan gagal
   end
-  TAB --> UI : sukses + jumlah terkumpul (+ persentase jika ada target)
-  UI --> U : tampilkan konfirmasi dan progres tabungan
-else nominal kosong, nol, negatif, atau bukan angka
-  TAB --> UI : error sesuai D6 TC-10
-  UI --> U : tampilkan pesan kesalahan
-else pemasukan tidak cukup
-  TAB --> UI : error "Pemasukan tidak cukup"
-  UI --> U : tampilkan pesan gagal
+else jenis = tabungan keluar
+  TAB -> TAB : cekSaldoTabungan(tujuan, nominal)
+  alt saldo tabungan cukup
+    TAB -> TAB : kurangiSaldoTabungan(tujuan, nominal)
+    TAB -> OUT : simpanSaldoMenggantung(nominal)
+    TAB --> UI : sukses, saldo menggantung bertambah
+    UI --> U : tampilkan konfirmasi
+  else saldo tabungan tidak cukup
+    TAB --> UI : error "Saldo tabungan tidak cukup"
+    UI --> U : tampilkan pesan gagal
+  end
 end
 @enduml
