@@ -1,0 +1,23 @@
+@startuml
+title Skenario 1: Catat Pemasukan
+
+actor "Mahasiswa (Pengguna)" as U
+boundary "UI Pencatatan" as UI
+control "Modul Pemasukan" as IN
+entity "Modul Sumber Uang" as SRC
+
+U -> UI : pilih sumber (Cash / E-Money), pilih kategori pemasukan, isi nominal
+UI -> IN : catatPemasukan(sumberUang, kategori, nominal)
+IN -> SRC : cekSumberUang(sumberUang)
+SRC --> IN : sumber valid
+
+alt nominal valid
+  IN -> SRC : tambahUangTersedia(sumberUang, nominal)
+  SRC --> IN : uangTersediaBaru
+  IN --> UI : sukses + uang tersedia baru
+  UI --> U : tampilkan konfirmasi pemasukan
+else nominal kosong, nol, negatif, atau bukan angka
+  IN --> UI : error "Nominal wajib diisi" / "Nominal harus lebih dari 0" / "Nominal harus berupa angka"
+  UI --> U : tampilkan pesan kesalahan
+end
+@enduml
