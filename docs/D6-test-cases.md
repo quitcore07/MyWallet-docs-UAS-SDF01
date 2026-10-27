@@ -27,7 +27,6 @@ Minimal 10 test case: 5 kasus umum (Common) dan 5 kasus batas (Edge).
 | TC-09 | Tabungan keluar melebihi saldo tabungan | Batas (edge) | Saldo tabungan cash 15.000 | Pilih Cash → tabungan keluar 20.000 → simpan | Ditolak "Saldo tabungan tidak cukup"; saldo tabungan tetap 15.000 |
 | TC-10 | Nominal tidak valid | Batas (edge) | Layar catat transaksi terbuka, sumber Cash dipilih | Isi nominal satu per satu dengan: kosong; 0; -10.000; atau dua puluh ribu. Tekan simpan setiap kali | Kosong: "Nominal wajib diisi". 0 atau -10.000: "Nominal harus lebih dari 0". Dua puluh ribu: "Nominal harus berupa angka". Transaksi tidak tersimpan di semua kasus |
 
-
 ## Cara Memilih Edge Case
 
-Kasus batas dipilih dari tiga aturan inti: pengeluaran tidak boleh melebihi uang tersedia, alokasi tidak boleh melebihi saldo menggantung, dan tabungan keluar tidak boleh melebihi saldo tabungan. Ketiganya paling sering dilanggar kalau dicatat manual, jadi dicek di nilai tepat (TC-08), melewati batas (TC-07, TC-09, TC-10), dan input tidak masuk akal (TC-11). Setiap kasus punya pesan dan hasil yang jelas, sehingga bisa dicocokkan langsung dengan unit test di D7.
+Kasus batas dipilih dari tiga aturan inti: pengeluaran tidak boleh melebihi uang tersedia, alokasi tidak boleh melebihi saldo menggantung, dan tabungan keluar tidak boleh melebihi saldo tabungan. Ketiganya paling sering dilanggar kalau dicatat manual. Kami menguji nilai tepat di batas (TC-07), melewati batas (TC-06, TC-08, TC-09), dan input yang tidak masuk akal (TC-10). Setiap kasus punya pesan dan hasil yang jelas, sehingga bisa dicocokkan langsung dengan unit test di D7.
