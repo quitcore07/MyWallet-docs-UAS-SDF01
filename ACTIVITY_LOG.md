@@ -13,3 +13,8 @@ Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-
 | 28 Okt 2026 | Ubay (quitcore07) | D6 | Membuat desain test, 10 test case | 60 menit | 5b08d1f |
 | 28 Okt 2026 | Ubay (quitcore07) | D4 | Membuat squence diagram skenario 1 (pemasukan) code puml dan png diagramnya | 30 menit | 6631903 |
 | 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D4 | membuat squence diagram skenario 2 (pengeluaran) code puml dan png diagramnya | 30 menit | 5249d5 |
+| 28 Okt 2026 | Irsyad (KyroCode-001) | D7 | Mengunggah file fungsi dan unit test D7 ke branch d7-test-and-function | 10 menit | be2a1b9, e3c50d2 |
+| 28 Okt 2026 | Irsyad (KyroCode-001) | D4 | Me-merge PR #8 (sequence diagram) ke main | 5 menit | PR #8, 6631903 |
+| 28 Okt 2026 | Irsyad (KyroCode-001) | D7 | Me-merge PR #9 (fungsi dan unit test D7) ke main | 5 menit | PR #9, 5171eba |
+| 28 Okt 2026 | Irsyad (KyroCode-001) | D5 | Menambah tabel tautan deliverable di README | 10 menit | 3826a02 |
+| 28 Okt 2026 | Irsyad (KyroCode-001) | D5 | Memperbaiki tautan D3 Use Case di README | 5 menit | 8fa0121 |
