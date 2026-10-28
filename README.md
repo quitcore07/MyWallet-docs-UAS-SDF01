@@ -44,11 +44,11 @@ Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-
 | Anggota | AI yang dipakai | Dipakai untuk |
 |---|---|---|
 | Ubay Abdillah | Claude | D1: draft awal nama aplikasi dan deskripsi |
-| Rafie Fahmi | Gemini | D1: menyusun latar belakang masalah dan membuat user |
-| Ubay Abdillah | Claude | D2: membuat modules,yang berisi 5 modul.md |
+| Muhammad Rafie Fahmi | Gemini | D1: menyusun latar belakang masalah dan membuat user |
+| Ubay Abdillah | Claude | D2: membuat modules, yang berisi 5 modul.md |
 | Ubay Abdillah | Claude | D6: membuat desain test, berisi 10 test |
-| Rafie Fahmi | Gemini | D3: membuat use case diagram (code puml) |
-| Rafie Fahmi | Gemini | D4: membuat skenario 2 squence-pengeluaran |
+| Muhammad Rafie Fahmi | Gemini | D3: membuat use case diagram (code puml) |
+| Muhammad Rafie Fahmi | Gemini | D4: membuat skenario 2 squence-pengeluaran |
 | Ubay Abdillah | Claude | D4:  membuat skenario 1 squence-pemasukan |
-| irsyad syafei | Zcode | D1:  membuat ruang lingkup dan keunggulan serta kekurangan dari my wallet |
-| irsyad syafei | Zcode | D4:  membuat skenario 3 squence-tabungan |
+| Muhammad Irsyad Syafei | Zcode | D1:  membuat ruang lingkup dan keunggulan serta kekurangan dari my wallet |
+| Muhammad Irsyad Syafei | Zcode | D4:  membuat skenario 3 squence-tabungan |
