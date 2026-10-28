@@ -38,7 +38,7 @@ pip install pytest
 pytest src
 
 
-Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/test-result.png](docs/test-result.png)
+Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-fungsi.jpg](docs/src/Hasil-test-fungsi.jpg)
 # Penggunaan AI
 
 | Anggota | AI yang dipakai | Dipakai untuk |
