@@ -14,6 +14,17 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 | Muhammad Irsyad Syafei | 26110300007 | @KyroCode-001 |
 | Muhammad Rafie Fahmy | 26110300030 | @rafiefahmi2905-dev |
 
+## Tautan Deliverable
+| Deliverable | File |
+|---|---|
+| D1 – Problem Statement | [docs/D1-problem-statement.md](docs/D1-problem-statement.md) |
+| D2 – Modul | [docs/D2-modules/](docs/D2-modules/) |
+| D3 – Use Case | [docs/D3-use-case.md](docs/D3-use-case.md) |
+| D4 – Sequence | [docs/D4-sequence.md](docs/D4-sequence.md) |
+| D5 – Kolaborasi | [ACTIVITY_LOG.md](ACTIVITY_LOG.md) |
+| D6 – Test Case | [docs/D6-test-cases.md](docs/D6-test-cases.md) |
+| D7 – Kode & Unit Test | [src/](src/) · [tests/](tests/) |
+
 ## Penggunaan AI
 
 | Anggota | AI yang dipakai | Dipakai untuk |
