@@ -10,4 +10,6 @@ Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-
 | 23 Okt 2026 | Irsyad (KyroCode-001) | D1 | Menyusun dan merangkum ruang lingkup, keunggulan, serta kekurangan aplikasi My Wallet | 20 menit | 3b95d90 |
 | 23 Okt 2026 | Ubay (quitcore07) | D2 | Menyusun rincian 5 modul (Sumber Uang, Pemasukan, Pengeluaran, Tabungan, Laporan & Notifikasi)| 15 menit | fe5be59, 2d0b6f2, 2b976dd, 3423477, c75a6e8 |
 | 23 Okt 2026 | Rafie (rafiefahmi2905-dev) | D3 | Merancang Use Case Diagram seluruh sistem My Wallet dan membuat kode PlantUML | 45 menit |  85f610d |
-| 19 Okt 2026 | Ubay (quitcore07) | D6 | Membuat desain test, 10 test case | 60 menit | 5b08d1f |
+| 28 Okt 2026 | Ubay (quitcore07) | D6 | Membuat desain test, 10 test case | 60 menit | 5b08d1f |
+| 28 Okt 2026 | Ubay (quitcore07) | D4 | Membuat squence diagram skenario 1 (pemasukan) code pumlnya | 30 menit | 6631903 |
+
