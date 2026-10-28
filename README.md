@@ -52,3 +52,5 @@ Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-
 | Ubay Abdillah | Claude | D4:  membuat skenario 1 squence-pemasukan |
 | Muhammad Irsyad Syafei | ZCode | D1:  membuat ruang lingkup dan keunggulan serta kekurangan dari my wallet |
 | Muhammad Irsyad Syafei | ZCode | D4:  membuat skenario 3 squence-tabungan |
+| Muhammad Irsyad Syafei | ZCode | D5: draft tabel tautan deliverable di README, lalu direvisi sendiri |
+| Muhammad Irsyad Syafei | ZCode | D5: menelaah kesesuaian repo dengan spec dan menyusun draf entri activity log |
