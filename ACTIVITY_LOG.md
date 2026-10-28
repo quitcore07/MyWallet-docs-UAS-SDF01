@@ -12,4 +12,4 @@ Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-
 | 23 Okt 2026 | Rafie (rafiefahmi2905-dev) | D3 | Merancang Use Case Diagram seluruh sistem My Wallet dan membuat kode PlantUML | 45 menit |  85f610d |
 | 28 Okt 2026 | Ubay (quitcore07) | D6 | Membuat desain test, 10 test case | 60 menit | 5b08d1f |
 | 28 Okt 2026 | Ubay (quitcore07) | D4 | Membuat squence diagram skenario 1 (pemasukan) code puml dan png diagramnya | 30 menit | 6631903 |
-| 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D4 | membuat squence diagram skenario 2 (pengeluaran) code puml dan png diagramnya | 30 menit | 5b08d1f |
+| 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D4 | membuat squence diagram skenario 2 (pengeluaran) code puml dan png diagramnya | 30 menit | 5249d5 |
