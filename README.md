@@ -19,7 +19,7 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 |---|---|
 | D1 – Problem Statement | [docs/D1-problem-statement.md](docs/D1-problem-statement.md) |
 | D2 – Modul | [docs/D2-modules/](docs/D2-modules/) |
-| D3 – Use Case | [docs/D3-use-case.md](docs/D3-use-case.md) |
+| D3 – Use Case | [docs/D3-use-case.md](docs/D3-use-case) |
 | D4 – Sequence | [docs/D4-sequence.md](docs/D4-sequence.md) |
 | D5 – Kolaborasi | [ACTIVITY_LOG.md](ACTIVITY_LOG.md) |
 | D6 – Test Case | [docs/D6-test-cases.md](docs/D6-test-cases.md) |
