@@ -50,7 +50,7 @@ Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-
 | Muhammad Rafie Fahmi | Gemini | D3: membuat use case diagram (code puml) |
 | Muhammad Rafie Fahmi | Gemini | D4: membuat skenario 2 squence-pengeluaran |
 | Ubay Abdillah | Claude | D4:  membuat skenario 1 squence-pemasukan |
-| Muhammad Irsyad Syafei | ZCode | D1:  membuat ruang lingkup dan keunggulan serta kekurangan dari my wallet |
-| Muhammad Irsyad Syafei | ZCode | D4:  membuat skenario 3 squence-tabungan |
+| Muhammad Irsyad Syafei | ZCode | D1: membuat ruang lingkup dan keunggulan serta kekurangan dari my wallet |
+| Muhammad Irsyad Syafei | ZCode | D4: membuat skenario 3 sequence-tabungan |
 | Muhammad Irsyad Syafei | ZCode | D5: draft tabel tautan deliverable di README, lalu direvisi sendiri |
 | Muhammad Irsyad Syafei | ZCode | D5: menelaah kesesuaian repo dengan spec dan menyusun draf entri activity log |
