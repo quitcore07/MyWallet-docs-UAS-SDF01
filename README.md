@@ -20,6 +20,8 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 |---|---|---|
 | Ubay Abdillah | Claude | D1: draft awal nama aplikasi dan deskripsi |
 | Rafie Fahmi | Gemini | D1: menyusun latar belakang masalah dan membuat user |
+| Ubay Abdillah | Claude | D2: membuat modules,yang berisi 5 modul.md |
+| Ubay Abdillah | Claude | D6: membuat desain test, berisi 10 test |
 
 
 
