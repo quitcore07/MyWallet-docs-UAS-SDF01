@@ -23,7 +23,7 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 | D4 – Sequence | [docs/D4-squence](docs/D4-squence) |
 | D5 – Kolaborasi | [ACTIVITY_LOG.md](ACTIVITY_LOG.md) |
 | D6 – Test Case | [docs/D6-test-cases.md](docs/D6-test-cases.md) |
-| D7 – Kode & Unit Test | [src/](src/) · [tests/](tests/) |
+| D7 – Kode & Unit Test | [docs/src](docs/src) |
 
 ## Penggunaan AI
 
