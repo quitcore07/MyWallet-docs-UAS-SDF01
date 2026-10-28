@@ -1,0 +1,46 @@
+@startuml
+title Skenario 2: Catat Pengeluaran
+
+actor "Mahasiswa (Pengguna)" as U
+boundary "UI Pencatatan" as UI
+control "Modul Pengeluaran" as OUT
+entity "Modul Sumber Uang" as SRC
+entity "Modul Tabungan" as TAB
+
+U -> UI : pilih sumber (Cash / E-Money), pilih sumber dana (uang tersedia / saldo menggantung), pilih kategori, isi nominal
+UI -> OUT : catatPengeluaran(sumberUang, sumberDana, kategori, nominal)
+
+alt nominal tidak valid (kosong, nol, negatif, atau bukan angka)
+  OUT --> UI : error "Nominal wajib diisi" / "Nominal harus lebih dari 0" / "Nominal harus berupa angka"
+  UI --> U : tampilkan pesan kesalahan
+else nominal valid
+  alt sumber dana = uang tersedia
+    OUT -> SRC : cekUangTersedia(sumberUang)
+    SRC --> OUT : uangTersedia
+
+    alt uang tersedia cukup
+      OUT -> SRC : kurangiUangTersedia(sumberUang, nominal)
+      SRC --> OUT : uangTersediaBaru
+      OUT --> UI : sukses + uang tersedia baru
+      UI --> U : tampilkan konfirmasi pengeluaran
+    else uang tersedia tidak cukup
+      OUT --> UI : error "Uang tidak cukup"
+      UI --> U : tampilkan pesan gagal
+    end
+
+  else sumber dana = saldo menggantung
+    OUT -> TAB : cekSaldoMenggantung(sumberUang)
+    TAB --> OUT : saldoMenggantung
+
+    alt saldo menggantung cukup
+      OUT -> TAB : kurangiSaldoMenggantung(nominal)
+      TAB --> OUT : saldoMenggantungBaru
+      OUT --> UI : sukses + saldo menggantung baru
+      UI --> U : tampilkan konfirmasi pengeluaran
+    else saldo menggantung tidak cukup
+      OUT --> UI : error "Saldo menggantung tidak cukup"
+      UI --> U : tampilkan pesan gagal
+    end
+  end
+end
+@enduml
