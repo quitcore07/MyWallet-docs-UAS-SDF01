@@ -6,7 +6,7 @@ My Wallet adalah aplikasi web pencatat keuangan untuk mahasiswa. Aplikasi ini me
 
 Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (take-home project kelompok).
 
-# Anggota Tim
+## Anggota Tim
 
 | Nama | NIM | GitHub |
 |---|---|---|
@@ -14,7 +14,7 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 | Muhammad Irsyad Syafei | 26110300007 | @KyroCode-001 |
 | Muhammad Rafie Fahmy | 26110300030 | @rafiefahmi2905-dev |
 
-# Tautan Deliverable
+## Tautan Deliverable
 | Deliverable | File |
 |---|---|
 | D1 – Problem Statement | [docs/D1-problem-statement.md](docs/D1-problem-statement.md) |
@@ -25,9 +25,9 @@ Proyek ini dibuat untuk UAS mata kuliah **Software Development Fundamentals** (t
 | D6 – Test Case | [docs/D6-test-cases.md](docs/D6-test-cases.md) |
 | D7 – Kode & Unit Test | [docs/src](docs/src) |
 
-# Cara Menjalankan Test
+## Cara Menjalankan Test
 
-Fungsi yang diuji ada di `src/fungsi_wallet.py`, dan unit test-nya ada di `src/test_wallet.py`.
+Fungsi yang diuji ada di `docs/src/fungsi_wallet.py`, dan unit test-nya ada di `docs/src/test_wallet.py`.
 
 1. Install pytest (cukup sekali):
 
@@ -39,7 +39,7 @@ pytest docs/src
 
 
 Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-fungsi.jpg](docs/src/Hasil-test-fungsi.jpg)
-# Penggunaan AI
+## Penggunaan AI
 
 | Anggota | AI yang dipakai | Dipakai untuk |
 |---|---|---|
