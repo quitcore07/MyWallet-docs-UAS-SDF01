@@ -35,7 +35,7 @@ pip install pytest
 
 2. Jalankan test dari folder utama repo:
 
-pytest src
+pytest docs/src
 
 
 Hasil yang diharapkan: `11 passed`. Screenshot hasil test: [docs/src/Hasil-test-fungsi.jpg](docs/src/Hasil-test-fungsi.jpg)
