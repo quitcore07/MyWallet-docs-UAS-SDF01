@@ -1,14 +1,14 @@
 #  Rincian Modul
 
-Aplikasi My Wallet dibagi menjadi 5 modul. Rincian tiap modul ada di folder [D2-modules](D2-modules).
+Aplikasi My Wallet dibagi menjadi 5 modul. Rincian tiap modul ada di folder D2-modules
 
-1. [Sumber Uang](D2-modules/modul.1-sumber-uang.md)
-2. [Pemasukan](D2-modules/modul.2-pemasukan.md)
-3. [Pengeluaran](D2-modules/modul.3-pengeluaran.md)
-4. [Tabungan](D2-modules/modul.4-tabungan.md)
-5. [Laporan & Notifikasi](D2-modules/modul.5-laporan&notif.md)
+1. ### Sumber Uang
+2. ### Pemasukan
+3. ### Pengeluaran
+4. ### Tabungan
+5. ### Laporan & Notifikasi
 
-## Ketergantungan Antar Modul
+# Ketergantungan Antar Modul
 
 | Modul | Bergantung pada | Alasan |
 |---|---|---|
