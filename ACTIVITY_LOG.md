@@ -20,3 +20,5 @@ Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-
 | 28 Okt 2026 | Irsyad (KyroCode-001) | D5 | Memperbaiki tautan D3 Use Case di README | 5 menit | `8fa0121` |
 | 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D7 | meng upload src jpg  hasil dari test.py | 10 menit | ` e3c50d2` |
 | 28 Okt 2026 | Ubay (quitcore07) | D5 | Menambahkan "cara menjalankan test" dan tautan ke file jpg hasil dari test.py | 10 menit | `3bcfed5` |
+| 29 Okt 2026 | Ubay (quitcore07) | D2 | Menambahkan rincian dan ketergantungan antar modul dari MyWallet | 20 menit | `310c201` |
+
