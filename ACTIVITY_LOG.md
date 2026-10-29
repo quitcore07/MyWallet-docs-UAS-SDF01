@@ -18,4 +18,4 @@ Setiap anggota menulis entrinya sendiri dan meng-commit dari akun GitHub masing-
 | 28 Okt 2026 | Irsyad (KyroCode-001) | D7 | Me-merge PR #9 (fungsi dan unit test D7) ke main | 5 menit | PR #9, `5171eba` |
 | 28 Okt 2026 | Irsyad (KyroCode-001) | D5 | Menambah tabel tautan deliverable di README | 10 menit | `3826a02` |
 | 28 Okt 2026 | Irsyad (KyroCode-001) | D5 | Memperbaiki tautan D3 Use Case di README | 5 menit | `8fa0121` |
-| 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D7 | meng upload src jpg  hasil dari test.py | 10 menit | e3c50d2` |
+| 28 Okt 2026 | Rafie (rafiefahmi2905-dev) | D7 | meng upload src jpg  hasil dari test.py | 10 menit | ` e3c50d2` |
